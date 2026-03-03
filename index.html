@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=https://chengpeng.framer.website" />
-    <title>Redirecting...</title>
-    <script>
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+    }
+    a {
+      color: #4da3ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <script>
+    setTimeout(function () {
       window.location.replace("https://chengpeng.framer.website");
-    </script>
-  </head>
-  <body>
+    }, 1500); // 1.5秒后跳转
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>This site has moved.</h2>
+    <p>You are being redirected to my updated portfolio.</p>
     <p>If you are not redirected automatically, 
       <a href="https://chengpeng.framer.website">click here</a>.
     </p>
-  </body>
+  </div>
+</body>
 </html>
